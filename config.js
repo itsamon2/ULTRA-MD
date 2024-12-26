@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923444844060';
+const defaultOwner = '254745188124';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || 'your number';  // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '254745188124';  // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -19,9 +19,9 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'ULTRA-MD';
-global.pairingNumber = process.env.BOT_NUMBER || 'your number';  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || 'session id';  // put your session id here
+global.botname = process.env.BOTNAME || '〘『••Ｉ🔅ᵃᵐ☯Gᵣᵤₜ⚠️••』〙';
+global.pairingNumber = process.env.BOT_NUMBER || '254745188124';  // put your number here
+global.SESSION_ID = process.env.SESSION_ID || 'eMwQ3brR#9GVa_ivvV8FNBcUcZFhE8svckYO3g2IgIX3rogSDLgc';  // put your session id here
 
 global.mods = []
 global.prems = []
@@ -86,10 +86,10 @@ global.thumb = fs.readFileSync('./assets/qasim.jpg')
 
 global.wait = '⏳'
 global.rwait = '⏳'
-global.dmoji = '🤭'
+global.dmoji = '⚾'
 global.done = '✅'
 global.error = '❌'
-global.xmoji = '🤩'
+global.xmoji = '🖥'
 
 global.multiplier = 69
 global.maxwarn = '3'
